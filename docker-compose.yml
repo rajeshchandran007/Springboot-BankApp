@@ -18,9 +18,7 @@ services:
       start_period: 30s
 
   mainapp:
-    build:
-      context: .
-    image: mybankapp-img
+    image: rajeshchandran007/bankapp
     container_name: Bankapp
     environment:
       - SPRING_DATASOURCE_USERNAME=root
