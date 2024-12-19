@@ -20,6 +20,7 @@ services:
   mainapp:
     build:
       context: .
+      image: mybankapp-img
     container_name: Bankapp
     environment:
       - SPRING_DATASOURCE_USERNAME=root
